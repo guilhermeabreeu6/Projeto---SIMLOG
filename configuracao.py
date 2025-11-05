@@ -21,7 +21,7 @@ class ConfiguracaoSistema:
         (ex: leitura de arquivo) só ocorra uma vez.
         """
         if not hasattr(self, '_inicializado'):
-            print("ConfiguracaoSistema: Carregando configurações iniciais...")
+            print("Logicargo System: Carregando configurações iniciais...")
 
             # Parâmetros de configuração
             self.TAXA_KM_VAN = 0.50
